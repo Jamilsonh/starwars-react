@@ -13,6 +13,7 @@ import {
     Route,
     Link
   } from "react-router-dom";
+import OsTresPilaresScreen from './OsTresPilaresScreen'
 
 const AppShellContainer = styled.div`
     height: 100%;
@@ -22,15 +23,15 @@ const AppShellContainer = styled.div`
 
 const AppShell = (props) => {
     return <AppShellContainer>
-
-<BrowserRouter>
-        <Header menuItems={menu}/>
+        <BrowserRouter>
+            <Header menuItems={menu}/>
             <Switch>
                 <Route path={'/'} exact component={HomeScreen}/>
                 <Route path={'/jedi'} component={JediScreen}/>
                 <Route path={'/sith'} component={SithScreen}/>
                 <Route path={'/guerras'} component={GuerrasScreen}/>
                 <Route path={'/forca'} component={ForcaScreen}/>
+                <Route path={'/tresPilares'} component={OsTresPilaresScreen}/>
             </Switch>
         </BrowserRouter>
         </AppShellContainer>

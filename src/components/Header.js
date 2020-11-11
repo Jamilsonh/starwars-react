@@ -4,7 +4,7 @@ import logo from '../images/logo.png'
 import {Link} from 'react-router-dom'
 const LogoContainer = styled.div`
     width: 200px;
-padding: 40px 20px;
+padding: 80px 20px;
 `
 const Img = styled.img`
     width: 100%;
@@ -63,7 +63,7 @@ const Header = (props) => {
             onClick={() => setMenuAtivo(index)}
              ativo={menuAtivo === index}>{item.name}</MenuItem>)}
              </Menu>
-        <RightButtonContainer><Button >BOOK NOW</Button></RightButtonContainer>
+        <RightButtonContainer><Button >CONTATO</Button></RightButtonContainer>
     </HeaderContainer>
 }
 

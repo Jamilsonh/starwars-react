@@ -1,6 +1,6 @@
 import React from 'react'
 import {Container, Title, Subtitle, Text, ContainerTexts, FlexRow} from '../components/StyledComponents'
-import Card from '../components/Card'
+import CardImage from '../components/CardImage'
 import styled from 'styled-components'
 
 const FlexRowWithMargin = styled(FlexRow)`
@@ -14,12 +14,10 @@ const ScreenDefault = (props) => {
         <div style={{flex: 1}}></div>
         <ContainerTexts>
             <Title>{props.title}</Title>
-            <Subtitle>{props.subtitle}</Subtitle>
-            <Text>{props.text}</Text>
         </ContainerTexts>
         <FlexRowWithMargin>
             {props.subMenus && props.subMenus.map((menu) => {
-            return <Card title={menu.title} image={menu.image} path={menu.path}/>
+            return <CardImage title={menu.title} image={menu.image} path={menu.path}/>
             })}
         </FlexRowWithMargin>
         </Container>
