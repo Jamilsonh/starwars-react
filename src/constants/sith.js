@@ -8,22 +8,22 @@ import codigo from '../images/Codigo.jpg'
 const SithMenu = [
     {
         title: 'DUALIDADE DA FORÇA',
-        path: 'tresPilares',
+        path: 'dualidade',
         image: dualid
     },
     {
         title: 'REGRA DE DOIS',
-        path: 'sabreDeLuz',
+        path: 'regra',
         image: regra
     },
     {
         title: 'O CODIGO SITH',
-        path: 'cavaleiroJedi',
+        path: 'codigo',
         image: forca
     },
     {
         title: 'FORÇA VIVA',
-        path: 'filosofia',
+        path: 'forcaViva',
         image: codigo
     },
 ]

@@ -32,6 +32,7 @@ const CardContainerText = styled.div`
     margin: 313px 133px 30px 133px;
     border-radius: 50px;
     padding: 87px 36px;
+    background-color: rgba(0, 0, 0, 0.5);
 `
 
 const TextWithSpaceAndUppercase = styled.div`
