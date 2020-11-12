@@ -8,22 +8,22 @@ import forca4 from '../images/frc4.jpg'
 const ForcaMenu = [
     {
         title: 'GUERRAS CLONICAS',
-        path: 'tresPilares',
+        path: 'sensibilidade',
         image: forca1
     },
     {
         title: 'A ERA DO IMPERIO',
-        path: 'sabreDeLuz',
+        path: 'habilidades',
         image: forca2
     },
     {
         title: 'GUERRAS DA REPUBLICA',
-        path: 'cavaleiroJedi',
+        path: 'evolução',
         image: forca3
     },
     {
         title: 'CONSEQUENCIAS DA GUERRA',
-        path: 'filosofia',
+        path: 'controle',
         image: forca4
     },
 ]

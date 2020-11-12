@@ -2,8 +2,8 @@ import react from 'react'
 import styled from 'styled-components'
 
 const Image = styled.div`
-    width: 336px;
-    height: 224px;
+    width: 20vw;
+    height: 10vw;
     background-image: url(${props => props.src});
     background-size: cover;
     border-radius: 30px;

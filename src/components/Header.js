@@ -2,15 +2,16 @@ import React, {useEffect, useState} from 'react'
 import styled from 'styled-components'
 import logo from '../images/logo.png'
 import {Link} from 'react-router-dom'
+
 const LogoContainer = styled.div`
     width: 200px;
-padding: 80px 20px;
+    padding: 80px 70px;
 `
 const Img = styled.img`
     width: 100%;
 `
 const HeaderContainer = styled.div`
-position: absolute;
+    position: absolute;
     width: 100%;
     display: flex;
 `
@@ -30,26 +31,26 @@ const Button = styled.button`
 `
 
 const Menu = styled.div`
-align-items: center;
-display: flex;
-justify-content: center;
-flex: 1;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex: 1;
 `
 const MenuItem = styled(Link)`
-text-transform: uppercase;
-color: white;
-font-weight: 300;
-padding: 2vw;
-cursor: pointer;
-font-family: 'Roboto', sans-serif;
-opacity: ${props => props.ativo ? 1 : 0.6};
+    text-transform: uppercase;
+    color: white;
+    font-weight: 300;
+    padding: 3.5vw;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    opacity: ${props => props.ativo ? 1 : 0.6};
 
 `
 const RightButtonContainer = styled.div`
-align-items: center;
-width: 200px;
-padding: 40px 20px;
-display: flex;
+    align-items: center;
+    width: 200px;
+    padding: 40px 70px;
+    display: flex;
 `
 
 const Header = (props) => {

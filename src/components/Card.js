@@ -5,7 +5,7 @@ const Image = styled.div`
     width: 336px;
     height: 224px;
     background-image: url(${props => props.src});
-    background-size: cover;
+    background-size: auto;
     border-radius: 30px;
     border: 2px solid #EDFF1A;
 `

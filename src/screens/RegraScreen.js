@@ -1,6 +1,6 @@
 import react from 'react'
 import InformationScreenDefault from './InformationScreenDefault'
-import luke from '../images/luke.jpg'
+import luke from '../images/Regra.jpg'
 import ForcaMenu from '../constants/forca'
 
 const OsTresPilaresScreen = (props) => {

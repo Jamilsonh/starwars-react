@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container, Title, Subtitle, Text, ContainerTexts, FlexRow, CardContainerText} from '../components/StyledComponents'
+import {Container, Title, Subtitle, Text, ContainerTexts, FlexRow, CardContainerText, Title2} from '../components/StyledComponents'
 import CardImage from '../components/CardImage'
 import styled from 'styled-components'
 
@@ -12,7 +12,7 @@ const FlexRowWithMargin = styled(FlexRow)`
 const InformationScreenDefault = (props) => {
     return <Container image={props.image}>
         <CardContainerText>
-            <Title>{props.title}</Title>
+            <Title2>{props.title}</Title2>
             <Subtitle>{props.subtitle}</Subtitle>
         </CardContainerText>
         </Container>

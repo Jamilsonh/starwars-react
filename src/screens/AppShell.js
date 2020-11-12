@@ -25,6 +25,10 @@ import GuerrasClonicasScreen from './GuerrasClonicasScreen'
 import GuerraImperioScreen from './GuerraImperioScreen'
 import ConsequenciasScreen from './ConsequenciasScreen'
 import GuerraRepublicaScreen from './GuerraRepublicaScreen'
+import SensibilidadeScreen from './SensibilidadeScreen'
+import HabilidadesScreen from './HabilidadesScreen'
+import EvoluçãoScreen from './EvoluçãoScreen'
+import ControleScreen from './ControleScreen'
 
 
 
@@ -55,7 +59,11 @@ const AppShell = (props) => {
                 <Route path={'/guerrasClonicas'} component={GuerrasClonicasScreen}/>
                 <Route path={'/guerraImperio'} component={GuerraImperioScreen}/>
                 <Route path={'/consequencias'} component={ConsequenciasScreen}/>
-                <Route path={'/GuerraRepublica'} component={GuerraRepublicaScreen}/>
+                <Route path={'/guerraRepublica'} component={GuerraRepublicaScreen}/>
+                <Route path={'/sensibilidade'} component={SensibilidadeScreen}/>
+                <Route path={'/habilidades'} component={HabilidadesScreen}/>
+                <Route path={'/evolução'} component={EvoluçãoScreen}/>
+                <Route path={'/controle'} component={ControleScreen}/>
             </Switch>
         </BrowserRouter>
         </AppShellContainer>

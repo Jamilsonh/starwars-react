@@ -1,6 +1,6 @@
 import React from 'react'
 import ScreenDefault from './ScreenDefault'
-import guerras from '../images/war.jpg'
+import guerras from '../images/nave.jpg'
 import GuerraMenu from '../constants/guerras'
 
 const GuerrasScreen = (props) => {
