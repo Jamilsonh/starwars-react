@@ -11,10 +11,18 @@ import TattoineScreen from './components/Screens/TattoineScreen';
 import MustafarScreen from './components/Screens/MustafarScreen';
 import CoruscantScreen from './components/Screens/CoruscantScreen';
 
+import img from '../src/Images/fundo.jpg'
+
 const AppShellContainer = styled.div`
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
+    background-image: url(${img});
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
 `
 
 const AppShell = () => {

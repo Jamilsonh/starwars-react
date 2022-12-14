@@ -1,5 +1,4 @@
 import Body from '../Body'
-import FundoInicial from '../../Images/FundoIncial.jpg'
 import Tattoine from '../../Images/TattoineImg.png'
 import Coruscant from '../../Images/CorcuscantImg.png'
 import Mustafar from '../../Images/MustafarImg.png'
@@ -7,7 +6,6 @@ import Endor from '../../Images/EndorImg.png'
 
 const CoruscantScreen = () => {
     return <Body
-        image={FundoInicial}
         planetImage={Coruscant}
         tituloPrincipal={'CORUSCANT'}
         subTituloPrincipal={'THE REPUBLIC PLANET'}
